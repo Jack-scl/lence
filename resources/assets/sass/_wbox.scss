@@ -1,0 +1,8 @@
+.wbox {
+    border-radius: 3px;
+    background: #fff;
+    @include shadow-sm;
+    &-content {
+        padding: 20px 30px;
+    }
+}

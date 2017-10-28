@@ -1,0 +1,34 @@
+.label {
+    font-size: 13px;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 0 2px;
+    line-height: 1.45em;
+    text-transform: none;
+    &-sm {
+        padding: 0 10px;
+    }
+    &-image {
+        border-radius: 50%;
+        max-width: 30px;
+        display: inline-block;
+        margin: -5px 5px -5px -15px;
+        vertical-align: top;
+    }
+    &-dark {
+        background: rgba(0, 0, 0, .2);
+    }
+    &-primary {
+        background: $blue;
+        color: #FFF;
+    }
+    &-success {
+        background: $green-light;
+        color: #fff;
+    }
+    &-warn {
+        color: #fff;
+        background: $warn;
+    }
+}

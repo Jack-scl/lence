@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: $common;
+    background: #eff2f4;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.45em;
+    &.modal-open {
+        overflow: hidden;
+    }
+}
+
+a {
+    cursor: pointer;
+    color: darken($blue, 15);
+    text-decoration: none;
+    &:hover, &:focus {
+        outline: none;
+        text-decoration: none;
+    }
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 18px;
+    line-height:1.45em;
+}
+
+h4 {
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 20px 0 10px 0;
+}
+
+#app {
+    padding: 85px 0 0 230px;
+}
